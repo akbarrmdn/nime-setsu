@@ -1,0 +1,46 @@
+/* root component */
+@import url("https://fonts.googleapis.com/css2?fam...");.ityped-cursor { 
+    font-weight: 300; 
+    color: #5d55fa;
+}
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior:smooth !important; /*membuat website jadi smooth*/
+
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #fbfffb;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* Start navbar */
+.navbar-lp {
+    height: 100%;
+}
+
+nav {
+    width: 80%;
+    height: 70px;
+    padding: 0px 0;
+    margin: 0 auto;
+}
